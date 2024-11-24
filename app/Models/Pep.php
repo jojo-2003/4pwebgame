@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Pep extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'username', 'password'];
+    protected $fillable = ['Fname', 'Lname', 'password'];
     protected $hidden = ['password'];
 
 }
